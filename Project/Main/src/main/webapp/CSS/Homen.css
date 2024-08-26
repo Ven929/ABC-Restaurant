@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Header Section */
+header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Cover Image Section */
+#cover {
+    background-image: url('cover.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cover-content {
+    background: #003366; /* Blue overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#cover h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#cover p {
+    font-size: 1.5em;
+}
+
+/* Overview Section */
+#overview {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#overview h2 {
+    color: #003366; /* Blue color */
+    margin-bottom: 20px;
+}
+
+#overview p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#gallery h2 {
+    color: #003366; /* Blue color */
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #003366; /* Blue shadow */
+}
+
+/* User Types Section */
+#user-types {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.card {
+    background-color: #f0f8ff; /* Light blue color */
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.2); /* Blue shadow */
+}
+
+.card h3 {
+    color: #003366; /* Blue color */
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+/* Footer Section */
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}

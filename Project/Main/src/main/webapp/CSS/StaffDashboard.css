@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Header Section */
+header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard Section */
+.dashboard {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dashboard h2 {
+    color: #003366; /* Blue color */
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-btn {
+    display: inline-block;
+    background-color: #003366; /* Blue color */
+    color: #ffffff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+    background-color: #003366; /* Darker blue */
+}
+
+/* Footer Section */
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
